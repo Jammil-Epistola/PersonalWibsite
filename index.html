@@ -15,23 +15,53 @@
         </div>
 
         <section id="header">
-            <p>Hi! My name is</p>
+            <img src = "profile pic.png" alt = "tempPic">
+            <p><b>Hi! My name is</b></p>
             <h1>Jammil C. Epistola</h1>
-            <p>An Aspiring Game Dev from 3CS-A</p>
+            <p><b>An Aspiring Game Dev from 3CS-A</b></p>
         </section>
         <section id="about">
             <h1>About</h1>
+            <p><b>Studying in Pamantasan ng Cabuyao(PnC). Likes playing Video Games such as Valorant, Osu, and Many More!<br>
+            Currently pursuing Bachelor of Science in Computer Science and learning <i>Godot</i> during my free time</b></p>
 
         </section>
         <section id="skills">
             <h1>Skills</h1>
+            <p>-This are the current Skills that I have and still improving from it-</p>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>JAVA</li>
+                <li>C#</li>
+                <li>Unity</li>
+            </ul>
 
         </section>
         <section id="contact">
             <h1>Contact</h1>
-
+            <p>-Feel Free to send a message by filling up this form!-</P>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Message..." rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
         </section>
        </div>
+
+       <script src="script.js"></script>
     </body>
 
 </html>
